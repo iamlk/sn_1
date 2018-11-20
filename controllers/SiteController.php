@@ -19,7 +19,7 @@ class SiteController extends Controller
         if($session->get('u'))
             return ;
         else
-            return $this->redirect('/');
+            return $this->redirect('/site/login');
     }
 
     public function actionDelete(){
