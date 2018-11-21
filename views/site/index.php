@@ -25,15 +25,16 @@
                     <thead>
                     <tr>
                         <th><input id="btnCheckAll" type="checkbox" /></th>
+                        <th>标签序列号</th>
+                        <th>硬件序列号</th>
+                        <th>PCB批次号</th>
                         <th>传感器批次号</th>
                         <th>传感器厂家</th>
-                        <th>PCB批次号</th>
+                        <th>类型WIFI/433</th>
                         <th>WIFI版的MAC地址</th>
-                        <th>WIFI/433</th>
                         <th>客户医院</th>
                         <th>科室</th>
-                        <th>硬件序列号</th>
-                        <th>标签序列号</th>
+                        <th>床位号</th>
                         <th>操作</th>
                     </tr>
                     </thead>
@@ -42,15 +43,16 @@
                     <?php foreach($list as $li):?>
                     <tr class="gradeX">
                         <td><input name="chkItem[]" value="<?php echo $li->id;?>" type="checkbox" /></td>
+                        <td><?php echo $li->sn_tip;?></td>
+                        <td><?php echo $li->sn;?></td>
+                        <td><?php echo $li->pcb_no;?></td>
                         <td><?php echo $li->gsensor_no;?></td>
                         <td><?php echo $li->gsensor_name;?></td>
-                        <td><?php echo $li->pcb_no;?></td>
-                        <td><?php echo $li->mac;?></td>
                         <td><?php echo $li->version;?></td>
+                        <td><?php echo $li->mac;?></td>
                         <td><?php echo $li->hospital;?></td>
                         <td><?php echo $li->office;?></td>
-                        <td><?php echo $li->sn;?></td>
-                        <td><?php echo $li->sn_tip;?></td>
+                        <td><?php echo $li->bed_no;?></td>
                         <td>
                             <div class="plupload_buttons">
                                 <a href="/site/edit?id=<?php echo $li->id;?>" class="mylink" id="uploader_browse" style="position: relative; z-index: 0;">修改</a>
