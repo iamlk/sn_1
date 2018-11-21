@@ -30,8 +30,8 @@
                         <th>PCB批次号</th>
                         <th>传感器批次号</th>
                         <th>传感器厂家</th>
-                        <th>类型WIFI/433</th>
-                        <th>WIFI版的MAC地址</th>
+                        <th>类型</th>
+                        <th>WIFI版MAC地址</th>
                         <th>客户医院</th>
                         <th>科室</th>
                         <th>床位号</th>
