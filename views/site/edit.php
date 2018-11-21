@@ -26,13 +26,13 @@
                                 <input name="sn" value="<?php echo $model->sn;?>" type="text" class="mws-textinput" />
                             </div>
                         </div>
-                    </div>
-                    <div class="mws-form-row">
-                        <label>PCB批次号</label>
-                        <div class="mws-form-item small">
-                            <input name="pcb_no" value="<?php echo $model->pcb_no;?>" type="text" class="mws-textinput" />
+
+                        <div class="mws-form-row">
+                            <label>PCB批次号</label>
+                            <div class="mws-form-item small">
+                                <input name="pcb_no" value="<?php echo $model->pcb_no;?>" type="text" class="mws-textinput" />
+                            </div>
                         </div>
-                    </div>
                         <div class="mws-form-row">
                             <label>传感器批次号</label>
                             <div class="mws-form-item small">
@@ -44,6 +44,7 @@
                             <div class="mws-form-item small">
                                 <input name="gsensor_name" value="<?php echo $model->gsensor_name;?>" type="text" class="mws-textinput" />
                             </div>
+                        </div>
                         <div class="mws-form-row">
                             <label>WIFI版的MAC地址</label>
                             <div class="mws-form-item small">
