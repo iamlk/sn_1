@@ -15,63 +15,63 @@
                 <form class="mws-form" action="/site/edit?id=<?php echo $_GET['id'];?>" method="post">
                     <div class="mws-form-inline">
                         <div class="mws-form-row">
-                            <label>Small text field</label>
+                            <label>标签SN</label>
+                            <div class="mws-form-item small">
+                                <input name="sn_tip" value="<?php echo $model->sn_tip;?>" type="text" class="mws-textinput" />
+                            </div>
+                        </div>
+                        <div class="mws-form-row">
+                            <label>硬件SN</label>
+                            <div class="mws-form-item small">
+                                <input name="sn" value="<?php echo $model->sn;?>" type="text" class="mws-textinput" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mws-form-row">
+                        <label>PCB批次号</label>
+                        <div class="mws-form-item small">
+                            <input name="pcb_no" value="<?php echo $model->pcb_no;?>" type="text" class="mws-textinput" />
+                        </div>
+                    </div>
+                        <div class="mws-form-row">
+                            <label>传感器批次号</label>
                             <div class="mws-form-item small">
                                 <input name="gsensor_no" value="<?php echo $model->gsensor_no;?>" type="text" class="mws-textinput" />
                             </div>
                         </div>
                         <div class="mws-form-row">
-                            <label>Small text field</label>
+                            <label>传感器厂家</label>
                             <div class="mws-form-item small">
                                 <input name="gsensor_name" value="<?php echo $model->gsensor_name;?>" type="text" class="mws-textinput" />
                             </div>
-                        </div>
                         <div class="mws-form-row">
-                            <label>Small text field</label>
-                            <div class="mws-form-item small">
-                                <input name="pcb_no" value="<?php echo $model->pcb_no;?>" type="text" class="mws-textinput" />
-                            </div>
-                        </div>
-                        <div class="mws-form-row">
-                            <label>Small text field</label>
+                            <label>WIFI版的MAC地址</label>
                             <div class="mws-form-item small">
                                 <input name="mac" value="<?php echo $model->mac;?>" type="text" class="mws-textinput" />
                             </div>
                         </div>
                         <div class="mws-form-row">
-                            <label>Small text field</label>
+                            <label>类型：WIFI/433</label>
                             <div class="mws-form-item small">
                                 <input name="version" value="<?php echo $model->version;?>" type="text" class="mws-textinput" />
                             </div>
                         </div>
                         <div class="mws-form-row">
-                            <label>Small text field</label>
+                            <label>客户医院</label>
                             <div class="mws-form-item small">
                                 <input name="hospital" value="<?php echo $model->hospital;?>" type="text" class="mws-textinput" />
                             </div>
                         </div>
                         <div class="mws-form-row">
-                            <label>Small text field</label>
+                            <label>科室</label>
                             <div class="mws-form-item small">
                                 <input name="office" value="<?php echo $model->office;?>" type="text" class="mws-textinput" />
                             </div>
                         </div>
                         <div class="mws-form-row">
-                            <label>Small text field</label>
+                            <label>床位号</label>
                             <div class="mws-form-item small">
                                 <input name="bed_no" value="<?php echo $model->bed_no;?>" type="text" class="mws-textinput" />
-                            </div>
-                        </div>
-                        <div class="mws-form-row">
-                            <label>Small text field</label>
-                            <div class="mws-form-item small">
-                                <input name="sn" value="<?php echo $model->sn;?>" type="text" class="mws-textinput" />
-                            </div>
-                        </div>
-                        <div class="mws-form-row">
-                            <label>Small text field</label>
-                            <div class="mws-form-item small">
-                                <input name="sn_tip" value="<?php echo $model->sn_tip;?>" type="text" class="mws-textinput" />
                             </div>
                         </div>
                     </div>
